@@ -58,7 +58,7 @@ class GameViewModel : ViewModel() {
      * Moves to the next word in the list
      */
     private fun nextWord() {
-        if (wordList.isEmpty()) {
+        if (wordList.isEmpty()) { 
             onGameFinish()
         } else {
             //Select and remove a _word from the list
