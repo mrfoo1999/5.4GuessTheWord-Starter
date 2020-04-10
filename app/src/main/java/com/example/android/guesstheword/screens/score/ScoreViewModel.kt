@@ -9,6 +9,7 @@ class ScoreViewModel(finalScore: Int) : ViewModel() {
     // The final score
     private val _score = MutableLiveData<Int>()
     val score: LiveData<Int>
+
         get() = _score
 
     private val _eventPlayAgain = MutableLiveData<Boolean>()
