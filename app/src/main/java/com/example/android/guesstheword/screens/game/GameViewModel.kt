@@ -62,7 +62,7 @@ class GameViewModel : ViewModel() {
             onGameFinish()
         } else {
             //Select and remove a _word from the list
-            _word.value = wordList.removeAt(0) 
+            _word.value = wordList.removeAt(0)
         }
     }
 
